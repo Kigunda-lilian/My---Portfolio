@@ -1,0 +1,12 @@
+.footer {
+    background-color: paleturquoise;
+    text-align: center;
+    font-size: 12pt;
+    height: 50pt;
+    padding-top: 20pt;
+}
+
+body {
+    padding-left: 3%;
+    padding-right: 3%;
+}
