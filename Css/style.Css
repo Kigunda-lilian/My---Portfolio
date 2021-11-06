@@ -1,12 +1,130 @@
+body {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.Landingpage {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Landingpage img {
+    height: 300pt;
+    width: 300pt;
+    border-radius: 50%;
+    box-shadow: plum;
+}
+
+.sub {
+    margin-right: 150pt;
+}
+
+.sub h1,
+p span {
+    color: plum;
+}
+
+.About-text span {
+    font-size: 18pt;
+}
+
+.About h1 {
+    color: plum;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+}
+
+.Expertise h1 {
+    color: paleturquoise;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+}
+
+.Expertise {
+    display: flexbox;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.projects h1 {
+    color: paleturquoise;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+}
+
+.projects img {
+    height: 95%;
+}
+
+.card-mb-3-1 {
+    float: left;
+    margin-bottom: 50pt;
+    border: 1cm;
+}
+
+.card-mb-3-2 {
+    float: right;
+    margin-right: 130pt;
+    margin-top: 10pt;
+    margin-bottom: 100pt;
+}
+
+.card-mb-3-3 {
+    float: left;
+    margin-top: 150pt;
+}
+
+.card-title {
+    color: paleturquoise;
+}
+
+.Contact {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20pt;
+}
+
+.Contacttext {
+    padding-top: 5%;
+}
+
+.Contacttext h1 {
+    color: paleturquoise;
+}
+
+.Contacttext p {
+    font-size: 15pt;
+}
+
+.fillform {
+    margin-right: 150pt;
+    padding-top: 2%;
+    flex-grow: 60%;
+}
+
+.mb-3 {
+    margin-bottom: 2rem !important;
+}
+
+#exampleFormControlInput1 {
+    width: 70%;
+}
+
+.btn {
+    background-color: paleturquoise !important;
+    color: black;
+}
+
 .footer {
     background-color: paleturquoise;
     text-align: center;
     font-size: 12pt;
     height: 50pt;
     padding-top: 20pt;
-}
-
-body {
-    padding-left: 3%;
-    padding-right: 3%;
 }
