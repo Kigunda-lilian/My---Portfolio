@@ -1,11 +1,62 @@
 body {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 15%;
+    padding-right: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.mycontainer {
+    height: 100%;
+}
+
+.navigation {
+    position: fixed;
+    top: 0pt;
+    margin-top: 0;
+    left: 0pt;
+    margin-right: 0pt;
+    background-color: plum;
+    z-index: 2;
+    bottom: 0;
+    padding-top: 50pt;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+    transition: all ease 0.5s;
+}
+
+a:hover {
+    color: blue;
 }
 
 .Landingpage {
     display: flex;
     justify-content: space-around;
+    margin-top: 150pt;
+    height: 100%;
 }
 
 .Landingpage img {
@@ -13,6 +64,7 @@ body {
     width: 300pt;
     border-radius: 50%;
     box-shadow: plum;
+    margin-left: 80pt;
 }
 
 .sub {
@@ -34,26 +86,35 @@ p span {
     margin-bottom: 20pt;
 }
 
+.About {
+    margin-left: 120pt;
+    height: 100%;
+}
+
 .Expertise h1 {
-    color: paleturquoise;
+    color: plum;
     margin-top: 20pt;
-    margin-bottom: 20pt;
+    margin-bottom: 30pt;
 }
 
 .Expertise {
     display: flexbox;
     justify-content: center;
     flex-wrap: wrap;
+    /* margin-top: 200pt; */
+    margin-left: 120pt;
 }
 
 .projects {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
+    margin-left: 120pt;
+    height: 100%;
 }
 
 .projects h1 {
-    color: paleturquoise;
+    color: plum;
     margin-top: 20pt;
     margin-bottom: 20pt;
 }
@@ -72,22 +133,22 @@ p span {
     float: right;
     margin-right: 130pt;
     margin-top: 10pt;
-    margin-bottom: 100pt;
 }
 
 .card-mb-3-3 {
     float: left;
-    margin-top: 150pt;
+    margin-top: 20pt;
 }
 
 .card-title {
-    color: paleturquoise;
+    color: plum;
 }
 
 .Contact {
     display: flex;
     justify-content: space-around;
     padding-bottom: 20pt;
+    height: 100%;
 }
 
 .Contacttext {
@@ -95,7 +156,7 @@ p span {
 }
 
 .Contacttext h1 {
-    color: paleturquoise;
+    color: plum;
 }
 
 .Contacttext p {
@@ -117,14 +178,13 @@ p span {
 }
 
 .btn {
-    background-color: paleturquoise !important;
+    background-color: plum!important;
     color: black;
 }
 
 .footer {
-    background-color: paleturquoise;
+    background-color: rgba(221, 160, 221, 0.2);
     text-align: center;
     font-size: 12pt;
     height: 50pt;
-    padding-top: 20pt;
 }
