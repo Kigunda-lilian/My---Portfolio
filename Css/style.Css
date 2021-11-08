@@ -136,7 +136,7 @@ p span {
     flex-wrap: wrap;
     /* margin-top: 200pt; */
     margin-left: 170pt;
-    padding-top: 90pt;
+    padding-top: 60pt;
 }
 
 .images1 img {
@@ -155,8 +155,8 @@ p span {
     /* justify-content: center; */
     margin-left: 120pt;
     height: 100%;
-    margin-bottom: 65pt;
-    padding-top: 30pt;
+    margin-bottom: 165pt;
+    padding-top: 10pt;
 }
 
 .projects h1 {
@@ -200,6 +200,7 @@ p span {
     justify-content: space-around;
     padding-bottom: 20pt;
     height: 100%;
+    padding-top: 50pt;
 }
 
 .Contacttext {
@@ -224,6 +225,10 @@ p span {
     margin-bottom: 2rem !important;
 }
 
+.mb-3-2 a {
+    color: blue !important;
+}
+
 #exampleFormControlInput1 {
     width: 70%;
 }
@@ -239,4 +244,5 @@ p span {
     font-size: 12pt;
     height: 50pt;
     left: 0;
+    padding-top: 15pt;
 }
